@@ -1,7 +1,30 @@
 html {
   box-sizing: border-box;
+
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header, footer {
+  background-color: #ffe500;
+}
+
+h1, h2 {
+  color: #b20953;
+}
+
+.highlighted {
+  background-color: #b20953;
+}
+
+a {
+  background-color: #b2a212;
+  color: white;
+}
+
+a:hover {
+  background-color: #cc1465;
 }
