@@ -1,8 +1,6 @@
 html {
   box-sizing: border-box;
-
   color: #2f2d13;
-
   font: normal 100%/1.5 Georgia;
 }
 
@@ -31,7 +29,7 @@ h1 {
 }
 
 nav {
-  padding: .4em 0;
+  padding: 0;
 }
 
 ul {
@@ -39,13 +37,11 @@ ul {
   padding: 0;
 
   text-align: center;
-
   list-style-type: none;
 }
 
 li {
   display: inline-block;
-  margin: .3em 0;
 }
 
 .highlighted {
@@ -53,7 +49,9 @@ li {
 }
 
 a {
-  padding: .5em;
+  display: inline-block;
+  padding: .3em .5em;
+  margin: 0 0 .3em;
   border-radius: .2em;
 
   background-color: #b2a212;
@@ -69,30 +67,33 @@ a:hover {
   background-color: #cc1465;
 }
 
-h2 {
-  padding: .5em;
+main {
+  padding: 0 .75em;
+}
 
+h2 {
+  padding: .5em 0;
+  margin: .3em 0;
   font-size: 1.875rem;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: .5em;
 }
 
 p {
-  margin: 0;
-  padding: .5em;
+  margin: .3em 0;
+  padding: .2em 0 .5em;
 }
 
 footer {
-  margin-top: .5em;
   padding: .5em 0;
-
   text-align: center;
 }
 
 small {
+  display: inline-block;
+  padding: .5em 0;
   font-size: .75rem;
 }
